@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <div>
+                <legend>Kişisel Bilgiler</legend><br>
+                <label for="name">Ad</label> <br>
+                <input type="text" id="name" name="name">
+            </div>
+            <br>
+        <div>
+            <label for="lastname">Soyad</label> <br>
+            <input type="text" id="lastname" name="lastname">
+        </div> <br>
+            <div>
+            <label for="email">E-Posta</label> <br>
+            <input type="email" id="email" name="email"> 
+            </div>
+            <br>
+        <div>
+                <label for="password">Şifre</label> <br>
+                <input type="password" id="password" name="password"> 
+        </div>
+        <br>
+            <div>
+            <label for="gender">Cinsiyet</label>
+            <input type="radio" name="gender" value="male">Erkek
+            <input type="radio" name="gender" value="female">Kadın 
+            </div>
+            <br>
+    <div>
+        <label for="fruit">Sevdiğiniz Meyve:</label>
+  <select id="fruit" name="fruit">
+    <option value="">Seçiniz</option>
+    <option value="Elma">Elma</option>
+    <option value="Muz">Muz</option>
+    <option value="Çilek">Çilek</option>
+    <option value="Kiraz">Kiraz</option>
+  </select><br>
+  <br>
+    </div>
+        <div>
+        <label for="Message">Mesajınız</label> <br>
+        <textarea name="Message" id="Message" rows="5" cols="40"></textarea>
+        </div>
+        </fieldset>
+        <br>
+    <button type="submit">Gönder</button>
+    </form>
+</body>
+</html>
